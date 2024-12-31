@@ -201,10 +201,12 @@ body {
     color: var(--primary);
     font-family: var(--navfont);
     font-size: clamp(50px,8vw,15vw);
-    z-index: 1002;
-    top: 130%;
+    z-index: 1006;
+    top: 30%;
+
   }
   #welcomediv{
+    position: relative;
     height: 100vh;
     width: 100vw;
     display: flex;
